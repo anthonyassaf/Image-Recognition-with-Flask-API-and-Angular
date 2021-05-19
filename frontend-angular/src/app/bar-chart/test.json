@@ -1,0 +1,94 @@
+[
+    {
+    "image": "url",
+      "name": "angry",
+      "series": [
+        {
+          "name": "1st Person",
+          "value": 0.69
+        }, {
+          "name": "2nd Person",
+          "value": 0.35
+        }
+      ]
+    }, 
+    {
+        "image": "url",
+        "name": "disgust",
+        "series": [
+          {
+            "name": "1st Person",
+            "value": 0.2
+          }, {
+            "name": "2nd Person",
+            "value": 0.0
+          } 
+        ]
+      },
+      {
+        "image": "url",
+        "name": "fear",
+        "series": [
+          {
+            "name": "1st Person",
+            "value": 0.0
+          }, {
+            "name": "2nd Person",
+            "value": 0.35
+          } 
+        ]
+      },
+      {
+        "image": "url",
+        "name": "happy",
+        "series": [
+          {
+            "name": "1st Person",
+            "value": 0.0
+          }, {
+            "name": "2nd Person",
+            "value": 0.0
+          } 
+        ]
+      },
+      {
+        "image": "url",
+        "name": "sad",
+        "series": [
+          {
+            "name": "1st Person",
+            "value": 0.3
+          }, {
+            "name": "2nd Person",
+            "value": 0.09
+          } 
+        ]
+      },
+      {
+        "image": "url",
+        "name": "surprise",
+        "series": [
+          {
+            "name": "1st Person",
+            "value": 0.0
+          }, {
+            "name": "2nd Person",
+            "value": 0.0
+          } 
+        ]
+      },
+      {
+        "name": "neutral",
+        "series": [
+          {
+            "name": "1st Person",
+            "value": 0.25
+          }, {
+            "name": "2nd Person",
+            "value": 0.56
+          }
+        ]
+      }
+  ]
+  
+  

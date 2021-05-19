@@ -1,0 +1,41 @@
+#wrap {
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#wrap img.fake {
+    float: left;
+    visibility: hidden;
+    width: auto;
+}
+
+#img_wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#wrap {
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#wrap img.fake {
+    float: left;
+    visibility: hidden;
+    width: auto;
+}
+
+#img_wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+}
+

@@ -1,0 +1,12 @@
+<div class="container" style="margin-top: 110px;">
+    <h3><span style="color: #99002C;">Gender & Age </span> Classification</h3>
+    <br>
+
+    <input type="file" (change)="onFileSelected($event)"><br>
+    <button type="button" class="btn btn-outline-danger" (click)="onUpload()">Upload & Predict</button>
+<br><br>
+    <img [src]="imageToShow" *ngIf="imageToShow" style="width: 50%; height: 50%">
+    <ng-template #noImageFound>
+
+    </ng-template>
+</div>

@@ -1,0 +1,33 @@
+<div class="container" style="margin-top: 110px;">
+    <h3><span style="color: #99002C;">Face Expression </span> Identification</h3>
+    <br>
+
+    <input type="file" (change)="onFileSelected($event)"><br>
+    <button type="button" class="btn btn-outline-danger" (click)="onUpload()">Upload & Predict</button>
+    <br><br>
+
+        <!-- <img [src]="imageToShow" *ngIf="imageToShow" style="width: 50%; height: 50%">
+    <ng-template #noImageFound>
+
+    </ng-template> -->
+
+    <div class="row">
+        <div class="col-8">
+            <div *ngIf="chartData">
+                <app-bar-chart [test]="chartData"></app-bar-chart>
+            </div>
+        </div>
+        <div class="col-2">
+
+            <div *ngFor="let i of images">
+                <img height="100px" src="{{ 'http://127.0.0.1:5000/' + i.value }}" alt={{i.name}}>
+                <p> {{ i.name }}</p>
+                <br>
+            </div>
+        </div>
+        
+<br><br>
+        
+    </div>
+
+</div>
